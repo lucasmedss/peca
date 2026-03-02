@@ -81,4 +81,3 @@ Foco em avaliação:
 
 - Os scripts preservam o foco em séries temporais por prédio.
 - O preenchimento de lacunas usa média histórica para o mesmo dia da semana e horário.
-- Caso adicione novos prédios no bruto, revise o mapeamento de nomes em `scripts/merge_energy_csvs.py`.
