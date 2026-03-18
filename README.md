@@ -77,7 +77,21 @@ Foco em avaliação:
 - cálculo de métricas de erro (ex.: RMSE, sMAPE);
 - comparação de desempenho por edifício no período selecionado.
 
+
+## Extração de Dados
+
+O script `scripts/extractor.py` é utilizado para coletar os dados da API e, combinado com os demais scripts do projeto, permite formar um novo dataset.
+Para executar a extração de dados diretamente da API, é necessário possuir credenciais de acesso válidas.
+
+Antes de usar o script de extração, solicite ao mantenedor do repositório:
+
+- token de acesso (`TOKEN`);
+- possíveis identificadores de sensores (`SENSOR_IDs`) disponíveis para possíveis prédios de interesse.
+
+Contato sugerido para solicitação (por e-mail): `lucas.soares@ccc.ufcg.edu.br`.
+
 ## Observações
 
 - Os scripts preservam o foco em séries temporais por prédio.
 - O preenchimento de lacunas usa média histórica para o mesmo dia da semana e horário.
+

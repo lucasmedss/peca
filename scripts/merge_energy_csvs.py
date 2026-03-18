@@ -3,7 +3,7 @@ import glob
 import os
 import pandas as pd
 
-
+# Mudar parâmetros caso conforme necessidade para um novo dataset
 DEFAULT_INPUT_GLOB = "dataset_bruto/**/energy_*.csv"
 DEFAULT_OUTPUT_CSV = "dataset/energy_merged.csv"
 DEFAULT_BUILDING_DICT_CSV = "dataset/building_dictionary.csv"
